@@ -1,0 +1,4 @@
+jvm = sc._jvm
+jss = spark._jsparkSession
+ssl = jvm.com.elanyo.SplineInjector.injectSpline(jss, "mongodb://127.0.0.1:27017", "lineageTest")
+
